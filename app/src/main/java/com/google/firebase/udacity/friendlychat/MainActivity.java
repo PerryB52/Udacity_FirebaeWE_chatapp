@@ -33,6 +33,12 @@ import android.widget.ProgressBar;
 import java.util.ArrayList;
 import java.util.List;
 
+/* when setting up firebase with this app use this command in commandline:
+keytool -exportcert -list -v -alias androiddebugkey -keystore %USERPROFILE%\.android\debug.keystore
+remove the unecessary "\" after -v
+ */
+
+
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
